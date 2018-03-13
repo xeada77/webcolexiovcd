@@ -1,0 +1,422 @@
+.flex-vicedo {
+  display: flex;
+}
+
+.space-around-vicedo {
+  justify-content: space-around;
+}
+
+.flex-vicedo-column {
+  flex-direction: column;
+}
+
+/* Estilo par el lema*/
+p.lema {
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(4, 94, 162, 0.6);
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif, Arial, Verdana, Helvetica;
+}
+
+/* Estilo para mostrar un resumen en lista de los post */
+
+.contenedor-imagenes-post {
+  height: auto;
+  /*width: 45%;*/
+  padding: 10px;
+}
+
+.contenedor-imagenes-post > img {
+  width: 100%;
+}
+
+.nodos-list-flex-container {
+  display: flex;
+  margin: 0 auto 20px auto;
+}
+
+.image-nodos-list {
+  height: auto;
+  width: 275px;
+  padding-right: 10px;
+  border-right: 2px solid #ddd;
+}
+
+.image-nodos-list > img {
+  /* box-sizing: border-box;*/
+  width: 100%;
+}
+
+.nodos-list-flex-content {
+  margin-left: 10px;
+  width: 70%;
+}
+
+.nodos-list-flex-content h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.nodos-list-title a {
+  text-decoration: none !important;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.nodos-list-resumen p {
+  font-size: 16px;
+  margin: 0 !important;
+}
+
+/* Estilo texto posts */
+
+.post-text {
+  font-family: sans-serif, Arial, Verdana, Helvetica;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+/* Estilo resumen posts secretaria */
+
+.secretaria-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.secretaria-content {
+  display: flex;
+  margin-top: 5px;
+  padding: 10px 0;
+}
+
+.secretaria-texts {
+  flex: 3;
+  padding: 10px;
+}
+
+.secretaria-titulo a {
+  text-decoration: none !important;
+}
+.secretaria-enlace {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: 14px;
+  border-left: 2px solid #efefef;
+}
+.secretaria-fecha {
+  background-color: rgba(47, 113, 162, 0.6);
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.secretaria-enlace i {
+  margin-bottom: 15px;
+}
+.secretaria-enlace a {
+  text-decoration: none !important;
+  color: rgba(245, 20, 90, 0.7);
+}
+
+.secretaria-enlace a:hover {
+  color: rgba(245, 20, 90, 1);
+}
+
+.secretaria-texts h1 {
+  margin: 0 0 5px 0;
+}
+
+/* Estilo Bloque Anuncios */
+.contenedor-anuncio {
+  padding: 20px;
+  border: 2px solid #2f71a2;
+}
+
+.anuncio-fila {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.anuncio-fila-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contenido-anuncio {
+  padding: 0 10px;
+  font-size: 20px;
+  color: #2f71a2;
+}
+
+.contenido-anuncio.contenido-anuncio-texto {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* Estilo para paginas con informacion a dos columnas (Matricula) */
+
+.informacion-columna {
+  padding: 0 10px;
+}
+
+.informacion-columna.informacion {
+  flex: 2;
+}
+
+.informacion-columna.documentos {
+  flex: 1;
+}
+
+.documentacion,
+.enlaces {
+  border-left: 2px solid #eeeeee;
+  padding: 0 10px;
+}
+
+.documentacion ul,
+.enlaces ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.documentacion li,
+.enlaces li {
+  padding: 5px;
+}
+
+/* Estilo para calendario */
+.contenedor-calendario {
+  flex-wrap: wrap;
+}
+
+.mes {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45%;
+  background-color: #eeeeee;
+  margin-bottom: 20px;
+}
+
+.dia.otro-mes {
+  color: #aaaaaa;
+}
+
+.dias-semana {
+  background-color: #777777;
+  color: white;
+  font-size: 16px;
+}
+
+.periodo1 {
+  color: white;
+  background-color: #e24e42;
+}
+
+.periodo2 {
+  background-color: #dcb239;
+  color: white;
+}
+
+.periodo2.periodo6 {
+  background: rgba(191, 216, 210, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(191, 216, 210, 1) 0%,
+    rgba(191, 216, 210, 1) 50%,
+    rgba(220, 178, 57, 1) 50%,
+    rgba(220, 178, 57, 1) 51%,
+    rgba(220, 178, 57, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(191, 216, 210, 1)),
+    color-stop(50%, rgba(191, 216, 210, 1)),
+    color-stop(50%, rgba(220, 178, 57, 1)),
+    color-stop(51%, rgba(220, 178, 57, 1)),
+    color-stop(100%, rgba(220, 178, 57, 1))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(191, 216, 210, 1) 0%,
+    rgba(191, 216, 210, 1) 50%,
+    rgba(220, 178, 57, 1) 50%,
+    rgba(220, 178, 57, 1) 51%,
+    rgba(220, 178, 57, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(191, 216, 210, 1) 0%,
+    rgba(191, 216, 210, 1) 50%,
+    rgba(220, 178, 57, 1) 50%,
+    rgba(220, 178, 57, 1) 51%,
+    rgba(220, 178, 57, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(191, 216, 210, 1) 0%,
+    rgba(191, 216, 210, 1) 50%,
+    rgba(220, 178, 57, 1) 50%,
+    rgba(220, 178, 57, 1) 51%,
+    rgba(220, 178, 57, 1) 100%
+  );
+}
+
+.periodo3 {
+  background-color: #015249;
+  color: white;
+}
+
+.periodo4 {
+  background-color: violet;
+  color: white;
+}
+
+.periodo5 {
+  background-color: brown;
+  color: white;
+}
+
+.periodo6 {
+  background-color: #bfd8d2;
+  color: white;
+}
+
+.leyenda-flex {
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cuadro-leyenda {
+  padding: 25px;
+  margin-right: 10px;
+}
+
+.contenedor-calendario.comedor {
+  /*min-width: 1000px;*/
+}
+
+.mes.mes-comedor {
+  width: 90%;
+}
+
+.nombre-mes {
+  justify-content: center;
+  padding: 50px 0px;
+  background-color: #2f71a2;
+  width: 100%;
+  font-size: 25px;
+  color: white;
+}
+
+.flex-bordeado {
+  box-shadow: 2px 0 0 0 #888, 0 2px 0 0 #888, 2px 2px 0 0 #888,
+    2px 0 0 0 #888 inset, 0 2px 0 0 #888 inset;
+}
+
+.fila-dias {
+  width: 100%;
+}
+
+.dia {
+  padding: 15px 2px;
+  justify-content: center;
+  flex: 1;
+}
+
+.dia.dia-menu {
+  padding-top: 0px;
+  min-height: 95px;
+}
+
+.dia.comedor {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 2;
+}
+
+.numero-dia {
+  padding: 10px;
+  align-self: flex-end;
+  font-weight: 600;
+  font-size: 18px;
+  color: #2f71a2;
+}
+
+.dia.dia-menu > a {
+  text-decoration: none !important;
+  color: inherit;
+  font-weight: bold;
+}
+
+.plato {
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.dia.dia-menu.fin-semana,
+.dia.nombre-dia.fin-semana {
+  flex: 1;
+}
+
+.dia.otro-mes,
+.dia.otro-mes .numero-dia {
+  color: #aaaaaa;
+}
+.lista-enlaces-vicedo {
+  align-items: center;
+}
+.lista-enlaces-vicedo .btn_ {
+  width: 50%;
+  margin-bottom: 5px;
+  
+}
+
+/* cabecera comedor */
+.cabecera-comedor {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+}
+.cabecera-comedor > img {
+  position: absolute;
+  height: calc(100% + 1px);
+  left:0;
+  top: 0;
+  width: calc(100% + 1px);
+  object-fit: cover;
+}
+.contenedor-comedor {
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+  padding: 45px 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+.text-sombra {
+  font-size: 48px;
+  margin: 30px 0;
+  padding: 30px 0;
+  color: #fff;
+  text-shadow: 0 0 22px #000;
+}

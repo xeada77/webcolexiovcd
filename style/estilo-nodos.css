@@ -1,3 +1,34 @@
+.ancho100 {
+  width: 100%;
+}
+
+.ancho15 {
+  width: 15%
+}
+
+.ancho30 {
+  width: 30%
+}
+
+.ancho70 {
+  width: 70%;
+}
+.ancho85 {
+  width: 85%;
+}
+
+.color-par {
+  background-color: #eeeeee;
+}
+
+.color-impar {
+  background-color: #cccccc
+}
+
+.padding-arriba-abajo {
+  padding: 10px 0;
+}
+
 .flex-vicedo {
   display: flex;
 }
@@ -37,6 +68,11 @@ p.lema {
 .nodos-list-flex-container {
   display: flex;
   margin: 0 auto 20px auto;
+}
+
+.nodos-list-flex-container .embed-container p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .image-nodos-list {
@@ -314,6 +350,10 @@ p.lema {
   width: 90%;
 }
 
+.mes.mes-calendario{
+  width: 32%;
+}
+
 .nombre-mes {
   justify-content: center;
   padding: 50px 0px;
@@ -321,6 +361,10 @@ p.lema {
   width: 100%;
   font-size: 25px;
   color: white;
+}
+
+.nombre-mes.nombre-mes-mini {
+  padding: 10px 0px; 
 }
 
 .flex-bordeado {
@@ -419,4 +463,10 @@ p.lema {
   padding: 30px 0;
   color: #fff;
   text-shadow: 0 0 22px #000;
+}
+
+/* Centrado de video en el node-type video */
+.full-node.node-type-video > .content {
+	display: flex;
+	justify-content: center;
 }
